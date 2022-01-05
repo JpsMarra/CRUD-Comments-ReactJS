@@ -1,11 +1,11 @@
 .comment-item {
-    border: 1px solid salmon;
+    border: 1px solid blue;
     margin: 20px;
     padding: 20px;
   }
 
 .comment-item .footer {
-    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
   }

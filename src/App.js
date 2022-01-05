@@ -9,6 +9,7 @@ function App() {
   return (
 
     <div className="App">
+      <h1>Comments App!</h1>
       <Comment />
       <Comment />
       <Comment />
