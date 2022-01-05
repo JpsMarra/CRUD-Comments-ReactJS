@@ -1,14 +1,20 @@
 import "./style.css"
 
-function Comment (){
+const Comment = (props) => {
+
+    const {name, email, message, date} = props;
+    
+    console.log(props);
+    
     return (     
     <div className="comment-item">
         <div className="footer">
-          <b>João Paulo Sant Ana marra</b> <span>05/01/2022</span> 
+          <b>{name}</b> 
+          <b>{email}</b> 
+          <b>{date.toString()}</b> 
         </div>
         <div className="comment"> 
-          Lorem ipsum urna lacus aliquet vehicula fames sagittis gravida,
-          at aliquam lectus nam mollis nostra.
+          {message}
         </div>
     </div>  
     );
